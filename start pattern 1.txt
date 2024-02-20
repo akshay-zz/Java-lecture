@@ -1,0 +1,34 @@
+0 * * * * 
+1 * * * _ 1, 3
+2 * * _ _ 2, 2 ; 2,3
+3 * _ _ _ 
+0 1 2 3
+
+i=2 
+j 2
+
+2< 4-2
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n = 4;
+	    
+	    // row control
+		for(int i = 0; i < n; i++){
+		
+    		// Column control
+    		for(int j = 0; j < n; j++){
+    			
+				if(j<n-i){
+					print(*)
+				}else
+				{
+					print(_)
+				}
+    		}
+    		
+    		System.out.println("");
+		}
+	}
+}
