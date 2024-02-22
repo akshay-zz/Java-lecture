@@ -1,3 +1,4 @@
+// Encapsulation
 public class ExcelExport{
 	
 	private List<string> Data;
