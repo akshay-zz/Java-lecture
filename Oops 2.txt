@@ -1,0 +1,31 @@
+public class ExcelExport{
+	
+	private List<string> Data;
+
+	ExcelExport(List<string> data){
+		Data = data;
+	}
+
+	// Hide detail
+	private void PrepareExcelWithNew(){
+		Preapare sheet 1
+		setup sdfasdf 
+		....Ago 1
+	}
+	
+	public void SaveFile(){
+		PrepareExcel();
+		save excel
+	}
+}
+
+Public class Main{
+	public static void main(string[] args){
+	
+		List<string> items = new List<string>{
+			"Apple", "Orange"
+		};
+		ExcelExport e = new ExcelExport(items);
+		e.SaveFile();
+	}
+}

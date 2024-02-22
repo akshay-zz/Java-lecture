@@ -1,0 +1,32 @@
+Abstraction - idea that need to be concrete implement
+Encapsulation - the action of enclosing something in or as if in a capsule.
+Inheritance - something that is or may be inherited
+Polymorphism - something that can exist in multiple form
+
+Abstraction in Java
+
+idea jisko complet
+We can create a abstract class that can be implement to create concrete class.
+We cannot create an object of abstract.
+
+Polymorphism in java
+
+public class Person{
+
+	int a=1;
+	
+	public void PrintAdress(string address, int salary){
+		sop(address  + name);
+	}
+	
+	public void PrintAdress(int salary, string aa){
+		sop(address);
+	}
+	
+	public void PrintAdress( int salary){
+		sop(address);
+	}
+}
+- different number of parameters
+- different datatype of parameters
+- different order of datatype
